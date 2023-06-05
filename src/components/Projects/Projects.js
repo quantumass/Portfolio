@@ -27,8 +27,8 @@ function Projects() {
                         <ProjectCard
                             imgPath={precisionpos}
                             isBlog={false}
-                            title="La caisse entregistreuse sur IPAD {SWIFT FRONT, VAPOR BACKEND}"
-                            description="Une solution complète, basée sur le cloud et dotée de toutes les fonctionnalités nécessaires au métier de commerçant pour vous faire progresser !"
+                            title="The cash register on iPad {Swift front, Vapor backend}"
+                            description="Cloud-based solution for merchants to grow their business. Built with Swift using organized architecture. Utilized DAO/SERVICE/CONTROLLER/VIEW on the front-end and repository pattern on the back-end."
                             demoLink="https://precisionsystemshq.com/"
                         />
                     </Col>
@@ -37,8 +37,8 @@ function Projects() {
                         <ProjectCard
                             imgPath={doctify}
                             isBlog={false}
-                            title="Doctify Health SaaS {SWIFT FRONT, VAPOR BACKEND}"
-                            description="Logiciel de gestion cabinet, outils cliniques et facturation médicale"
+                            title="Doctify Health SaaS {Swift front, Vapor backend}"
+                            description="Practice management software, clinical tools, and medical billing for healthcare providers to manage administrative tasks with ease."
                             demoLink="https://precisionsystemshq.com/"
                         />
                     </Col>
@@ -48,7 +48,7 @@ function Projects() {
                             imgPath={sodexo}
                             isBlog={false}
                             title="MySodexo Maroc {Vuejs, Cordova, Laravel}"
-                            description="l’application mobile Sodexo permet de localiser rapidement sur une carte les commerces affiliés à proximité de l’utilisateur."
+                            description="Sodexo mobile app helps users locate affiliated merchants nearby on a map, making it easy to find a place to eat or shop."
                             demoLink="https://mysodexo.ma/"
                         />
                     </Col>
@@ -58,7 +58,7 @@ function Projects() {
                             imgPath={dhj}
                             isBlog={false}
                             title="My DHJ official app {Vuejs, Cordova, Laravel}"
-                            description="L 'application officielle du Difaa el Hassani el Jadidii (DHJ) vous permet de suivre toute l'actualité de l 'équipe première du club. Vous aurez rendez-vous avec des photos exclusives des joueurs et des interviews inédites d'avant et après match Classements, calendriers et résultats, autant d’ occasions de partager votre amour du football et la passion de votre club de football préféré."
+                            description="Official DHJ app offers exclusive news, photos, interviews, standings, schedules, and results for fans of the football club."
                             demoLink="https://utopie.ma/projets/dhj/"
                         />
                     </Col>
@@ -68,7 +68,7 @@ function Projects() {
                             imgPath={minyadi}
                             isBlog={false}
                             title="Minyadi {Nuxt.js, Cordova, Laravel}"
-                            description="Le projet e-commerce consiste à concevoir une boutique en ligne intuitive, responsive, moderne, qui soit simple d’utilisation et qui répond aux standards de la pratique de la vente en ligne."
+                            description="E-commerce project designed to create an intuitive, responsive, modern, and easy-to-use online store that meets the standards of online sales practices."
                             demoLink="https://utopie.ma/projets/minyadi/"
                         />
                     </Col>
@@ -78,7 +78,7 @@ function Projects() {
                             imgPath={livre}
                             isBlog={false}
                             title="Livré! {Vuejs, Cordova, Laravel}"
-                            description="L'app Livré ! vous propose des mets frais et savoureux, préparés dans un environnement sanitaire strict en vous offrant une qualité de service inégalée à chaque étape de votre commande, le tout à un prix accessible."
+                            description="Livré! app provides fresh and tasty dishes prepared in a sanitary environment, with high-quality service at an affordable price."
                             demoLink="https://utopie.ma/projets/livre/"
                         />
                     </Col>

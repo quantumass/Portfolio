@@ -103,6 +103,14 @@ function NavBar() {
                                 Resume
                             </Nav.Link>
                         </Nav.Item>
+
+                        <Nav.Link
+                            href="https://blog.otterdev.org/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <ImBlog style={{ marginBottom: '2px' }} /> Blog
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
