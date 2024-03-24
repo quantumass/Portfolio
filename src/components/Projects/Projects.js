@@ -5,6 +5,7 @@ import Particle from '../Particle'
 import dhj from '../../Assets/Projects/dhj.webp'
 import precisionpos from '../../Assets/Projects/Logiciel-de-caisse33_en.png'
 import doctify from '../../Assets/Projects/doctify.png'
+import tydom from '../../Assets/Projects/tydom.png'
 import minyadi from '../../Assets/Projects/minyadi.webp'
 import livre from '../../Assets/Projects/livre.webp'
 import sodexo from '../../Assets/Projects/sodexo.webp'
@@ -44,6 +45,28 @@ function Projects() {
                     </Col>
 
                     <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={tydom}
+                            isBlog={false}
+                            title="Deltadore Tydom APP {SwiftUI/UIKit, Websocket, Rxswift, Combine ...}"
+                            description="allows users to control various systems in their homes such as heating,
+                            shutters, lights, alarm, gate, and garage door through their smartphone or
+                            tablet"
+                            demoLink="https://apps.apple.com/fr/app/tydom/id946440452"
+                        />
+                    </Col>
+
+                    
+                </Row>
+
+                <h1 className="project-heading">
+                    My Archive <strong className="purple">Works </strong>
+                </h1>
+
+                <Row
+                    style={{ justifyContent: 'center', paddingBottom: '10px' }}
+                >
+<Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={sodexo}
                             isBlog={false}
