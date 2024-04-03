@@ -37,7 +37,7 @@ function Home2() {
                             My passion lies in the creation of &nbsp;
                             <i>
                                 <b className="purple">
-                                    Web Technologies and Products{' '}
+                                    Mobile Technologies and Products{' '}
                                 </b>{' '}
                                 and also in areas related to{' '}
                                 <b className="purple">
@@ -47,11 +47,15 @@ function Home2() {
                             <br />
                             <br />
                             In addition I'm always trying new Technologies
-                            <b className="purple">Swift Vapor, Coredata</b> and
+                            <b className="purple">
+                                Swift Vapor, RxSwift, Combine
+                            </b>{' '}
+                            and
                             <i>
                                 <b className="purple">
                                     {' '}
-                                    Modern Javascript Library and Frameworks
+                                    also some modern Javascript Libraries and
+                                    Frameworks
                                 </b>
                             </i>
                             &nbsp; like
