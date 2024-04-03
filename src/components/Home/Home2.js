@@ -16,20 +16,16 @@ function Home2() {
                             MYSELF
                         </h1>
                         <p className="home-about-body">
-                            Started my journey programming with C, my code was
-                            so bad, I had more magic variables than Harry
-                            Potter's wand 😅 and no comments to explain what any
-                            of them did! But things changed so much I had to
-                            learn that a clean code is far better than a code
-                            that looks like a toddler's finger painting
-                            masterpiece, with no rhyme or reason and colors
-                            everywhere
+                        I've got this unstoppable enthusiasm for technology, you know? It's like my fuel! Bring on those new challenges, I say!
+                        <br /><br />There's nothing like diving headfirst into the latest innovations to keep my spirits high and my brain buzzing.
+                        <br /><br />Every problem? That's just another chance to flex my tech muscles and level up.
+                        <br /><br />And hey, who said coding couldn't be a blast? I've got this special knack for turning bugs into features.
+                        <br /><br />It's like being a digital magician, turning mishaps into marvels. So, let's embrace the chaos and make some magic happen!
                             <br />
-                            <br />I am an artist using
+                            <br />I love
                             <i>
                                 <b className="purple">
-                                    {' '}
-                                    Php, Javascript and swift.{' '}
+                                    {' '}swift{' '}
                                 </b>
                             </i>
                             <br />
@@ -60,7 +56,7 @@ function Home2() {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="purple"> Vuejs and Nuxt</b>
+                                <b className="purple"> Vuejs, react native and Nuxt</b>
                             </i>
                         </p>
                     </Col>
@@ -90,16 +86,6 @@ function Home2() {
                                     className="icon-colour  home-social-icons"
                                 >
                                     <AiFillGithub />
-                                </a>
-                            </li>
-                            <li className="social-icons">
-                                <a
-                                    href="https://twitter.com/soufiane_ms"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
-                                >
-                                    <AiOutlineTwitter />
                                 </a>
                             </li>
                             <li className="social-icons">

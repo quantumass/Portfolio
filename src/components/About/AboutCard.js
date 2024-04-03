@@ -22,19 +22,18 @@ function AboutCard() {
                     </p>
                     <ul>
                         <li className="about-activity">
-                            <ImPointRight /> Playing video Games
+                            <ImPointRight /> Bookworm (poetry and novels)
+                        </li>
+                        <li className="about-activity">
+                            <ImPointRight /> Gym rat
                         </li>
                         <li className="about-activity">
                             <ImPointRight /> Drawing
                         </li>
-                        <li className="about-activity">
-                            <ImPointRight /> Sleeping
-                        </li>
                     </ul>
 
                     <p style={{ color: 'rgb(155 126 172)' }}>
-                        "Nothing will come to you. run, walk, crawl to your
-                        destiny"{' '}
+                        "I love learning Xcode shortcuts, if you know any useful one send me on my email"{' '}
                     </p>
                     <footer className="blockquote-footer">me</footer>
                 </blockquote>
