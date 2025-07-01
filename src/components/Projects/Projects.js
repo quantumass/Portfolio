@@ -9,6 +9,8 @@ import tydom from '../../Assets/Projects/tydom.png'
 import minyadi from '../../Assets/Projects/minyadi.webp'
 import livre from '../../Assets/Projects/livre.webp'
 import sodexo from '../../Assets/Projects/sodexo.webp'
+import rademacher from '../../Assets/Projects/rademacher.png'
+import textgenieai from '../../Assets/Projects/textgenieai.jpg'
 
 function Projects() {
     return (
@@ -24,6 +26,41 @@ function Projects() {
                 <Row
                     style={{ justifyContent: 'center', paddingBottom: '10px' }}
                 >
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={rademacher}
+                            isBlog={false}
+                            title="Rademacher App {UIKit, RestAPI, Viper arch ...}"
+                            description="A smart home control app that lets you manage shutters, lights, heating, and other devices from your phone. It works with the Rademacher HomePilot system, supports automation, and offers remote access for convenient home control anytime, anywhere."
+                            demoLink="https://www.rademacher.de/"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={textgenieai}
+                            isBlog={false}
+                            title="TextGenieAI {SwiftUI, OpenAI API}"
+                            description="Pa macOS assistive writing app designed to enhance productivity and creativity by offering smart, contextual text tools through a popup bar that appears beside selected text. Built for writers, students, professionals, and creatives"
+                            demoLink="https://textgenieai.com/"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={tydom}
+                            isBlog={false}
+                            title="Deltadore Tydom APP {SwiftUI/UIKit, Websocket, Rxswift, Combine ...}"
+                            description="A smart home control app that allows users to control various systems in their homes such as heating,
+                            shutters, lights, alarm, gate, and garage door through their smartphone or
+                            tablet"
+                            demoLink="https://apps.apple.com/fr/app/tydom/id946440452"
+                        />
+                    </Col>
+
+                    
+                </Row>
+                <Row>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={precisionpos}
@@ -43,20 +80,6 @@ function Projects() {
                             demoLink="https://precisionsystemshq.com/"
                         />
                     </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={tydom}
-                            isBlog={false}
-                            title="Deltadore Tydom APP {SwiftUI/UIKit, Websocket, Rxswift, Combine ...}"
-                            description="allows users to control various systems in their homes such as heating,
-                            shutters, lights, alarm, gate, and garage door through their smartphone or
-                            tablet"
-                            demoLink="https://apps.apple.com/fr/app/tydom/id946440452"
-                        />
-                    </Col>
-
-                    
                 </Row>
 
                 <h1 className="project-heading">
