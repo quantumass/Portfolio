@@ -12,9 +12,7 @@ function ProjectCards(props) {
                 src={props.imgPath}
                 alt="card-img"
                 style={{
-                    margin: 'auto',
-                    height: '12rem',
-                    width: '15rem',
+                    margin: 'auto'
                 }}
             />
             <Card.Body>
